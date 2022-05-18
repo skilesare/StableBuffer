@@ -20,7 +20,7 @@ import Prim "mo:⛔";
 
 module {
 
-  type StableBuffer<X> = {
+  public type StableBuffer<X> = {
     initCapacity: Nat;
     var count: Nat;
     var elems: [var X];
